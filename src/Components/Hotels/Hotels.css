@@ -1,0 +1,12 @@
+.roomImg img {
+    width: 100%;
+}
+
+.roomCard {
+    display: flex;
+    align-items: center;
+    background: #dddddd;
+    margin: 20px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

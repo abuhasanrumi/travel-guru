@@ -1,0 +1,40 @@
+.detailsBox {
+    text-align: center;
+    background-color: #FFC107;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.detailsBox input[type="text"] {
+    width: 90%;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+label {
+    margin: 5px
+}
+
+.dates {
+    margin: 20px 0
+}
+
+.detailsBox input[type="date"] {
+    width: 90%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: end;
+
+}
+
+.bookBtn {
+    width: 90%;
+    height: 50px;
+    background: white;
+}

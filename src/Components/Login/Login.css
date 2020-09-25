@@ -1,0 +1,65 @@
+.login-area {
+    text-align: center;
+    margin: 40px 0;
+}
+.loginTitle {
+    margin-bottom: 40px
+}
+
+input[type="text"], input[type="password"] {
+    border: none;
+    background: white;
+    border-bottom: 1px solid lightgrey;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #F9A51A;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.helpZone {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.help {
+    margin: 0;
+    color: #F9A51A;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer
+}
+
+.instantLoginBtns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instantLoginBtns button {
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    margin: 15px 0;
+    margin-top: 0;
+    border: 1px solid #F9A51A;
+    border-radius: 3px;
+
+}
